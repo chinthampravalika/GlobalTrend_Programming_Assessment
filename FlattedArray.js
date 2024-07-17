@@ -1,4 +1,4 @@
-//4)Write a function that checks if two given strings are anagrams of each other.
+//3)Write a function that checks if two given strings are anagrams of each other.
 
 
 const readline = require('readline');

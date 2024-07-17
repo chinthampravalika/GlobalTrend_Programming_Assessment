@@ -7,7 +7,6 @@ function evaluateExpression(userInput) {
     // Use regular expression to split the expression operators
     let operators = userInput.match(/[-+]?[0-9]+/g);
     let result = 0;
-  
     //iterate each element by using forEach method
     operators.forEach(operator => {
       result += parseInt(operator);
